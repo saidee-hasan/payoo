@@ -22,3 +22,23 @@ document.getElementById("cash-btn").addEventListener("click",function(e){
   
   
 })
+
+
+// add-many-show
+document.getElementById("add-cash").addEventListener("click",function(){
+document.getElementById("cash-many-from").classList.remove("hidden")
+document.getElementById("add-many-from").classList.add("hidden")
+
+})
+document.getElementById("add-many").addEventListener("click",function(){
+
+document.getElementById("add-many-from").classList.remove("hidden")
+document.getElementById("cash-many-from").classList.add("hidden")
+  
+})
+
+
+
+
+
+
