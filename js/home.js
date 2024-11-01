@@ -36,9 +36,3 @@ document.getElementById("add-many-from").classList.remove("hidden")
 document.getElementById("cash-many-from").classList.add("hidden")
   
 })
-
-
-
-
-
-
